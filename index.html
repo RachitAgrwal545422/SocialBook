@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Book</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/ae8a04f28f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <a href="./index.html"><img src="./images/logo.png" class="logo" /></a>
+        <ul>
+          <li>
+            <img src="./images/notification.png" />
+          </li>
+          <li>
+            <img src="./images/inbox.png" />
+          </li>
+          <li>
+            <img src="./images/video.png" />
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="./images/search.png" alt="" />
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+          <img src="./images/profile-pic.png" alt="" />
+        </div>
+      </div>
+      <!-- sttingsmenu -->
+      <div class="settings-menu">
+        <div id="dark-btn" class="dark-btn-on">
+          <span></span>
+        </div>
+
+        <div class="settings-manu-inner">
+          <div class="user-profile">
+            <img src="./images/profile-pic.png" alt="" />
+            <div>
+              <p>John Nicholson</p>
+              <a href="./profile.html">See Your profile</a>
+            </div>
+          </div>
+          <hr />
+          <div class="user-profile">
+            <img src="./images/feedback.png" alt="" />
+            <div>
+              <p>Give Feedback</p>
+              <a href="#">Help Us to improve the new Design</a>
+            </div>
+          </div>
+          <hr />
+          <div class="setting-links">
+            <img src="./images/setting.png" alt="" class="settings-icon" />
+            <a href="#"
+              >Settings & privacy <img src="./images/arrow.png" width="10px" />
+            </a>
+          </div>
+          <div class="setting-links">
+            <img src="./images/help.png" alt="" class="settings-icon" />
+            <a href="#"
+              >Help & Support <img src="./images/arrow.png" width="10px" />
+            </a>
+          </div>
+          <div class="setting-links">
+            <img src="./images/display.png" alt="" class="settings-icon" />
+            <a href="#"
+              >Display & Accessibilty
+              <img src="./images/arrow.png" width="10px" />
+            </a>
+          </div>
+          <div class="setting-links">
+            <img src="./images/logout.png" alt="" class="settings-icon" />
+            <a href="#"
+              >LogOut
+              <img src="./images/arrow.png" width="10px" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <!-- <---left_side-bar---->
+      <div class="left-sidebar">
+        <div class="imp-links">
+          <a href="#">
+            <img src="./images/news.png" alt="" />
+            Latest News
+          </a>
+          <a href="#">
+            <img src="./images/friends.png" alt="" />
+            Friends
+          </a>
+          <a href="#">
+            <img src="./images/group.png" alt="" />
+            Groups
+          </a>
+          <a href="#">
+            <img src="./images/marketplace.png" alt="" />
+            Market Place
+          </a>
+          <a href="#">
+            <img src="./images/watch.png" alt="" />
+            Watch
+          </a>
+          <a href="#"> See More </a>
+        </div>
+        <div class="shortcut-links">
+          <p>Your-Shortcuts</p>
+          <a href="#"
+            ><img src="./images/shortcut-1.png" alt="" />Web Devlopers</a
+          >
+          <a href="#"
+            ><img src="./images/shortcut-2.png" alt="" />Web Design Course</a
+          >
+          <a href="#"
+            ><img src="./images/shortcut-3.png" alt="" />Full Stack
+            Devlopment</a
+          >
+          <a href="#"
+            ><img src="./images/shortcut-4.png" alt="" />Web Site Experts</a
+          >
+        </div>
+      </div>
+      <!-- <---mainContent---->
+      <div class="main-content">
+        <div class="story-gallery">
+          <div class="story story1">
+            <img src="./images/upload.png" alt="" />
+            <p>Post Story</p>
+          </div>
+          <div class="story story2">
+            <img src="./images/member-1.png" alt="" />
+            <p>Alison</p>
+          </div>
+          <div class="story story3">
+            <img src="./images/member-2.png" alt="" />
+            <p>Jakson</p>
+          </div>
+          <div class="story story4">
+            <img src="./images/member-3.png" alt="" />
+            <p>Samona</p>
+          </div>
+          <div class="story story5">
+            <img src="./images/member-4.png" alt="" />
+            <p>Rachit</p>
+          </div>
+        </div>
+
+        <div class="write-post-container">
+          <div class="user-profile">
+            <img src="./images/profile-pic.png" alt="" />
+            <div>
+              <p>John Nicholson</p>
+              <small>Public <i class="fa-solid fa-caret-down"></i></small>
+            </div>
+          </div>
+          <div class="post-input-container">
+            <textarea
+              rows="3"
+              placeholder="What's on your mind Rachit"
+            ></textarea>
+
+            <div class="add-post-links">
+              <a href="#"
+                ><img src="./images/live-video.png" alt="" />Live Video</a
+              >
+              <a href="#"><img src="./images/photo.png" alt="" />Photo/Video</a>
+              <a href="#"
+                ><img src="./images/feeling.png" alt="" />feling Activity</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="./images/profile-pic.png" alt="" />
+              <div>
+                <p>John Nicholson</p>
+                <span>June 24 2021, 13:40 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            Lorem ipsum <span>Rachit Agrawal</span>dolor sit amet consectetur,
+            adipisicing elit. Ab ex eligendi deserunt nemo in molestiae
+            <a href="#">#coding #webDevlopment</a>
+          </p>
+          <img src="./images/feed-image-1.png" alt="" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div>
+                <img src="./images/like-blue.png" alt="" />
+                120
+              </div>
+              <div>
+                <img src="./images/comments.png" alt="" />
+                25
+              </div>
+              <div>
+                <img src="./images/share.png" alt="" />
+                20
+              </div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="./images/profile-pic.png" alt="" /><i
+                class="fa-solid fa-caret-down"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="./images/profile.png" alt="" />
+              <div>
+                <p>John Nicholson</p>
+                <span>June 24 2021, 13:40 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            Lorem ipsum <span>Rachit Agrawal</span>dolor sit amet consectetur,
+            adipisicing elit. Ab ex eligendi deserunt nemo in molestiae
+            <a href="#">#Gaming #Enjoyment</a>
+          </p>
+          <img src="./images/feed-image-2.png" alt="" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div>
+                <img src="./images/like.png" alt="" />
+                120
+              </div>
+              <div>
+                <img src="./images/comments.png" alt="" />
+                25
+              </div>
+              <div>
+                <img src="./images/share.png" alt="" />
+                20
+              </div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="./images/profile-pic.png" alt="" /><i
+                class="fa-solid fa-caret-down"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="./images/profile.png" alt="" />
+              <div>
+                <p>John Nicholson</p>
+                <span>June 24 2021, 13:40 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            Lorem ipsum <span>Rachit Agrawal</span>dolor sit amet consectetur,
+            adipisicing elit. Ab ex eligendi deserunt nemo in molestiae
+            <a href="#">#Gaming #Enjoyment</a>
+          </p>
+          <img src="./images/feed-image-3.png" alt="" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div>
+                <img src="./images/like.png" alt="" />
+                120
+              </div>
+              <div>
+                <img src="./images/comments.png" alt="" />
+                25
+              </div>
+              <div>
+                <img src="./images/share.png" alt="" />
+                20
+              </div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="./images/profile-pic.png" alt="" /><i
+                class="fa-solid fa-caret-down"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="./images/profile.png" alt="" />
+              <div>
+                <p>John Nicholson</p>
+                <span>June 24 2021, 13:40 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            Lorem ipsum <span>Rachit Agrawal</span>dolor sit amet consectetur,
+            adipisicing elit. Ab ex eligendi deserunt nemo in molestiae
+            <a href="#">#Gaming #Enjoyment</a>
+          </p>
+          <img src="./images/feed-image-4.png" alt="" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div>
+                <img src="./images/like.png" alt="" />
+                120
+              </div>
+              <div>
+                <img src="./images/comments.png" alt="" />
+                25
+              </div>
+              <div>
+                <img src="./images/share.png" alt="" />
+                20
+              </div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="./images/profile-pic.png" alt="" /><i
+                class="fa-solid fa-caret-down"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="./images/profile.png" alt="" />
+              <div>
+                <p>John Nicholson</p>
+                <span>June 24 2021, 13:40 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            Lorem ipsum <span>Rachit Agrawal</span>dolor sit amet consectetur,
+            adipisicing elit. Ab ex eligendi deserunt nemo in molestiae
+            <a href="#">#Gaming #Enjoyment</a>
+          </p>
+          <img src="./images/feed-image-5.png" alt="" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div>
+                <img src="./images/like.png" alt="" />
+                120
+              </div>
+              <div>
+                <img src="./images/comments.png" alt="" />
+                25
+              </div>
+              <div>
+                <img src="./images/share.png" alt="" />
+                20
+              </div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="./images/profile-pic.png" alt="" /><i
+                class="fa-solid fa-caret-down"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="load-more-button">Load More</button>
+      </div>
+      <!-- <---right_side-bar---->
+      <div class="right-sidebar">
+        <div class="sidebar-title">
+          <h4>Events</h4>
+          <a href="#">See All</a>
+        </div>
+        <div class="event">
+          <div class="left-event">
+            <h3>18</h3>
+            <span>March</span>
+          </div>
+          <div class="right-event">
+            <h4>Social Media</h4>
+            <p><i class="fa-solid fa-location-dot"></i>Willson Tech Park</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="event">
+          <div class="left-event">
+            <h3>22</h3>
+            <span>June</span>
+          </div>
+          <div class="right-event">
+            <h4>mobile Marketing</h4>
+            <p><i class="fa-solid fa-location-dot"></i>Willson Tech Park</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="sidebar-title">
+          <h4>Advertisement</h4>
+          <a href="#">Close</a>
+        </div>
+        <img src="./images/advertisement.png" class="sidebar-ads" />
+        <div class="sidebar-title">
+          <h4>Conversation</h4>
+          <a href="#">Hide Chat</a>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="./images/member-1.png" />
+          </div>
+          <p>Alison mina</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="./images/member-2.png" />
+          </div>
+          <p>Jakson Aston</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="./images/member-3.png" />
+          </div>
+          <p>Samon Rose</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Copyright 2021 - Made By Rachit Agrawal</p>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

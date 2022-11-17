@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Book - profile Page</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/ae8a04f28f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <a href="./index.html"><img src="./images/logo.png" class="logo" /></a>
+        <ul>
+          <li>
+            <img src="./images/notification.png" />
+          </li>
+          <li>
+            <img src="./images/inbox.png" />
+          </li>
+          <li>
+            <img src="./images/video.png" />
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="./images/search.png" alt="" />
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+          <img src="./images/profile-pic.png" alt="" />
+        </div>
+      </div>
+      <!-- sttingsmenu -->
+      <div class="settings-menu">
+        <div id="dark-btn" class="dark-btn-on">
+          <span></span>
+        </div>
+
+        <div class="settings-manu-inner">
+          <div class="user-profile">
+            <img src="./images/profile-pic.png" alt="" />
+            <div>
+              <p>John Nicholson</p>
+              <a href="./profile.html">See Your profile</a>
+            </div>
+          </div>
+          <hr />
+          <div class="user-profile">
+            <img src="./images/feedback.png" alt="" />
+            <div>
+              <p>Give Feedback</p>
+              <a href="#">Help Us to improve the new Design</a>
+            </div>
+          </div>
+          <hr />
+          <div class="setting-links">
+            <img src="./images/setting.png" alt="" class="settings-icon" />
+            <a href="#"
+              >Settings & privacy <img src="./images/arrow.png" width="10px" />
+            </a>
+          </div>
+          <div class="setting-links">
+            <img src="./images/help.png" alt="" class="settings-icon" />
+            <a href="#"
+              >Help & Support <img src="./images/arrow.png" width="10px" />
+            </a>
+          </div>
+          <div class="setting-links">
+            <img src="./images/display.png" alt="" class="settings-icon" />
+            <a href="#"
+              >Display & Accessibilty
+              <img src="./images/arrow.png" width="10px" />
+            </a>
+          </div>
+          <div class="setting-links">
+            <img src="./images/logout.png" alt="" class="settings-icon" />
+            <a href="#"
+              >LogOut
+              <img src="./images/arrow.png" width="10px" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- profile Page --------------------------------->
+    <div class="profile-container">
+      <img src="./images_prof/cover.png" alt="" class="cover-img" />
+      <div class="profile-details">
+        <div class="pd-left">
+          <div class="pd-row">
+            <img src="./images_prof/profile.png" alt="" class="pd-image" />
+            <div>
+              <h3>Jack Nicholan</h3>
+              <p>120 friends - 20 mutual</p>
+              <img src="./images_prof/member-1.png" alt="" />
+              <img src="./images_prof/member-2.png" alt="" />
+              <img src="./images_prof/member-3.png" alt="" />
+              <img src="./images_prof/member-4.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="pd-right">
+          <button type="button">
+            <img src="./images_prof/add-friends.png" />friend
+          </button>
+          <button type="button">
+            <img src="./images_prof/message.png" />Message
+          </button>
+          <br />
+          <a href="#"><img src="./images_prof/more.png" alt="" /></a>
+        </div>
+      </div>
+      <div class="profile-info">
+        <div class="info-col">
+          <div class="profile-intro">
+            <h3>Intro</h3>
+            <p class="intro-text">
+              Believe in yourself ans u can do this.
+              <img src="./images_prof/feeling.png" alt="" />
+            </p>
+            <hr />
+            <ul>
+              <li>
+                <img src="./images_prof/profile-job.png" />Director at 99media
+                Limited
+              </li>
+              <li>
+                <img src="./images_prof/profile-study.png" />Studied at Amity
+              </li>
+              <li>
+                <img src="./images_prof/profile-study.png" />Studied at DPS
+                Delhi
+              </li>
+              <li>
+                <img src="./images_prof/profile-home.png" />Studied at DPS Delhi
+              </li>
+              <li>
+                <img src="./images_prof/profile-location.png" />Studied at DPS
+                Delhi
+              </li>
+            </ul>
+          </div>
+          <div class="profile-intro">
+            <div class="title-box">
+              <h3>photos</h3>
+              <a href="#">All Photos</a>
+            </div>
+            <div class="photo-box">
+              <div>
+                <img src="./images_prof/photo1.png" alt="" />
+                <img src="./images_prof/photo2.png" alt="" />
+                <img src="./images_prof/photo3.png" alt="" />
+                <img src="./images_prof/photo4.png" alt="" />
+                <img src="./images_prof/photo5.png" alt="" />
+                <img src="./images_prof/photo6.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="profile-intro">
+            <div class="title-box">
+              <h3>Friends</h3>
+              <a href="#">All Friends</a>
+            </div>
+            <p>120 (10 mutual)</p>
+            <div class="friends-box">
+              <div>
+                <img src="./images_prof/member-1.png" alt="" />
+                <p>Rachit A</p>
+              </div>
+              <div>
+                <img src="./images_prof/member-2.png" alt="" />
+                <p>Rachit A</p>
+              </div>
+              <div>
+                <img src="./images_prof/member-3.png" alt="" />
+                <p>Rachit A</p>
+              </div>
+              <div>
+                <img src="./images_prof/member-4.png" alt="" />
+                <p>Rachit A</p>
+              </div>
+              <div>
+                <img src="./images_prof/member-5.png" alt="" />
+                <p>Rachit A</p>
+              </div>
+              <div>
+                <img src="./images_prof/member-6.png" alt="" />
+                <p>Rachit A</p>
+              </div>
+              <div>
+                <img src="./images_prof/member-7.png" alt="" />
+                <p>Rachit A</p>
+              </div>
+              <div>
+                <img src="./images_prof/member-8.png" alt="" />
+                <p>Rachit A</p>
+              </div>
+              <div>
+                <img src="./images_prof/member-9.png" alt="" />
+                <p>Rachit A</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="post-col">
+          <div class="write-post-container">
+            <div class="user-profile">
+              <img src="./images/profile-pic.png" alt="" />
+              <div>
+                <p>John Nicholson</p>
+                <small>Public <i class="fa-solid fa-caret-down"></i></small>
+              </div>
+            </div>
+            <div class="post-input-container">
+              <textarea
+                rows="3"
+                placeholder="What's on your mind Rachit"
+              ></textarea>
+
+              <div class="add-post-links">
+                <a href="#"
+                  ><img src="./images/live-video.png" alt="" />Live Video</a
+                >
+                <a href="#"
+                  ><img src="./images/photo.png" alt="" />Photo/Video</a
+                >
+                <a href="#"
+                  ><img src="./images/feeling.png" alt="" />feling Activity</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="./images/profile-pic.png" alt="" />
+                <div>
+                  <p>John Nicholson</p>
+                  <span>June 24 2021, 13:40 pm</span>
+                </div>
+              </div>
+              <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+            </div>
+
+            <p class="post-text">
+              Lorem ipsum <span>Rachit Agrawal</span>dolor sit amet consectetur,
+              adipisicing elit. Ab ex eligendi deserunt nemo in molestiae
+              <a href="#">#coding #webDevlopment</a>
+            </p>
+            <img src="./images/feed-image-1.png" alt="" class="post-img" />
+
+            <div class="post-row">
+              <div class="activity-icons">
+                <div>
+                  <img src="./images/like-blue.png" alt="" />
+                  120
+                </div>
+                <div>
+                  <img src="./images/comments.png" alt="" />
+                  25
+                </div>
+                <div>
+                  <img src="./images/share.png" alt="" />
+                  20
+                </div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="./images/profile-pic.png" alt="" /><i
+                  class="fa-solid fa-caret-down"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="./images/profile.png" alt="" />
+                <div>
+                  <p>John Nicholson</p>
+                  <span>June 24 2021, 13:40 pm</span>
+                </div>
+              </div>
+              <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+            </div>
+
+            <p class="post-text">
+              Lorem ipsum <span>Rachit Agrawal</span>dolor sit amet consectetur,
+              adipisicing elit. Ab ex eligendi deserunt nemo in molestiae
+              <a href="#">#Gaming #Enjoyment</a>
+            </p>
+            <img src="./images/feed-image-2.png" alt="" class="post-img" />
+
+            <div class="post-row">
+              <div class="activity-icons">
+                <div>
+                  <img src="./images/like.png" alt="" />
+                  120
+                </div>
+                <div>
+                  <img src="./images/comments.png" alt="" />
+                  25
+                </div>
+                <div>
+                  <img src="./images/share.png" alt="" />
+                  20
+                </div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="./images/profile-pic.png" alt="" /><i
+                  class="fa-solid fa-caret-down"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="./images/profile.png" alt="" />
+                <div>
+                  <p>John Nicholson</p>
+                  <span>June 24 2021, 13:40 pm</span>
+                </div>
+              </div>
+              <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+            </div>
+
+            <p class="post-text">
+              Lorem ipsum <span>Rachit Agrawal</span>dolor sit amet consectetur,
+              adipisicing elit. Ab ex eligendi deserunt nemo in molestiae
+              <a href="#">#Gaming #Enjoyment</a>
+            </p>
+            <img src="./images/feed-image-3.png" alt="" class="post-img" />
+
+            <div class="post-row">
+              <div class="activity-icons">
+                <div>
+                  <img src="./images/like.png" alt="" />
+                  120
+                </div>
+                <div>
+                  <img src="./images/comments.png" alt="" />
+                  25
+                </div>
+                <div>
+                  <img src="./images/share.png" alt="" />
+                  20
+                </div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="./images/profile-pic.png" alt="" /><i
+                  class="fa-solid fa-caret-down"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="./images/profile.png" alt="" />
+                <div>
+                  <p>John Nicholson</p>
+                  <span>June 24 2021, 13:40 pm</span>
+                </div>
+              </div>
+              <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+            </div>
+
+            <p class="post-text">
+              Lorem ipsum <span>Rachit Agrawal</span>dolor sit amet consectetur,
+              adipisicing elit. Ab ex eligendi deserunt nemo in molestiae
+              <a href="#">#Gaming #Enjoyment</a>
+            </p>
+            <img src="./images/feed-image-4.png" alt="" class="post-img" />
+
+            <div class="post-row">
+              <div class="activity-icons">
+                <div>
+                  <img src="./images/like.png" alt="" />
+                  120
+                </div>
+                <div>
+                  <img src="./images/comments.png" alt="" />
+                  25
+                </div>
+                <div>
+                  <img src="./images/share.png" alt="" />
+                  20
+                </div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="./images/profile-pic.png" alt="" /><i
+                  class="fa-solid fa-caret-down"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="./images/profile.png" alt="" />
+                <div>
+                  <p>John Nicholson</p>
+                  <span>June 24 2021, 13:40 pm</span>
+                </div>
+              </div>
+              <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+            </div>
+
+            <p class="post-text">
+              Lorem ipsum <span>Rachit Agrawal</span>dolor sit amet consectetur,
+              adipisicing elit. Ab ex eligendi deserunt nemo in molestiae
+              <a href="#">#Gaming #Enjoyment</a>
+            </p>
+            <img src="./images/feed-image-5.png" alt="" class="post-img" />
+
+            <div class="post-row">
+              <div class="activity-icons">
+                <div>
+                  <img src="./images/like.png" alt="" />
+                  120
+                </div>
+                <div>
+                  <img src="./images/comments.png" alt="" />
+                  25
+                </div>
+                <div>
+                  <img src="./images/share.png" alt="" />
+                  20
+                </div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="./images/profile-pic.png" alt="" /><i
+                  class="fa-solid fa-caret-down"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Copyright 2021 - Made By Rachit Agrawal</p>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
